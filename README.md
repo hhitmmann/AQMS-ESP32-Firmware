@@ -1,6 +1,6 @@
 # AQMS – ESP32 Firmware
 
-C++ firmware (Arduino framework) for the ESP32 at the heart of my **Air Quality Monitoring System (AQMS)**, my final-year capstone project at NED University (awarded Distinction).
+C++ firmware (Arduino framework) for the ESP32 at the heart of my **Air Quality Monitoring System (AQMS)**, my final-year capstone project at NED University.
 
 The firmware reads environmental sensors, shows live data on a TFT display, raises local and remote alerts, and uploads readings to Firebase for the companion Flutter app.
 
