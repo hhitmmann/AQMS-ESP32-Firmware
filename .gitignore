@@ -1,1 +1,30 @@
+# ===== Private credentials (NEVER commit) =====
+# Real config with Wi-Fi passwords, Discord webhook and Firebase secret.
+# (config.example.h is NOT matched, so the template stays in the repo.)
+config.h
+secrets.h
+.env
+*.env
 
+# ===== Arduino build output =====
+build/
+*.bin
+*.elf
+*.hex
+*.map
+
+# ===== Editor / IDE files =====
+.vscode/
+.idea/
+*.code-workspace
+
+# ===== Backups and temp files =====
+*.bak
+*.tmp
+*.orig
+*~
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+Desktop.ini
